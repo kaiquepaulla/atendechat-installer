@@ -186,7 +186,7 @@ clone_repository() {
     fi
 
     # Usar repositório público
-    git clone https://github.com/listiago/atendechat.git atendechat
+    git clone https://github.com/kaiquepaulla/atendechat.git atendechat
 
     if [[ $? -ne 0 ]]; then
         print_error "Falha ao clonar o repositório"
